@@ -1,8 +1,8 @@
-# MVC CON SPRING BOOT | HOLA MUNDO CON THYMELEAF
+# ♻️👨🏻‍💻 MVC CON SPRING BOOT | HOLA MUNDO CON THYMELEAF
 
 _Configurar un archivo MVC usando thymeleaf._
 
-##  APLICATION.PROPERTIES
+## 📂 APLICATION.PROPERTIES
 ```
 server.port=8080
 spring.main.banner-mode=off 
@@ -10,7 +10,7 @@ spring.thymeleaf.cache=false
 index.saludo=Saludos desde application.properties
 ```
 
-## CLASE PERSONA
+## 📂 CLASE PERSONA
 ```
 package com.irondif;
 
@@ -47,7 +47,7 @@ public class Persona {
 }
 ```
 
-## CLASE CONTROLADOR INICIO
+## 📂 CLASE CONTROLADOR INICIO
 ```
 package com.irondif;
 
@@ -80,7 +80,7 @@ public class ControladorInicio {
 }
 ```
 
-## INDEX.HTML
+## 📂 INDEX.HTML
 _El archivo index.html tiene que ir dentro de la carpeta src/main/resources → templates_
 ```
 <!DOCTYPE html>
